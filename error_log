@@ -1,0 +1,94 @@
+[20-Aug-2018 10:55:39 America/New_York] PHP Fatal error:  Uncaught exception 'Intervention\Image\Exception\MissingDependencyException' with message 'PHP Fileinfo extension must be installed/enabled to use Intervention Image.' in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php:135
+Stack trace:
+#0 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php(25): Intervention\Image\ImageManager->checkRequirements()
+#1 /home/elmool/public_html/pic2/index.php(9): Intervention\Image\ImageManager->__construct(Array)
+#2 {main}
+  thrown in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php on line 135
+[20-Aug-2018 10:57:30 America/New_York] PHP Fatal error:  Uncaught exception 'Intervention\Image\Exception\MissingDependencyException' with message 'PHP Fileinfo extension must be installed/enabled to use Intervention Image.' in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php:135
+Stack trace:
+#0 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php(25): Intervention\Image\ImageManager->checkRequirements()
+#1 /home/elmool/public_html/pic2/index.php(9): Intervention\Image\ImageManager->__construct(Array)
+#2 {main}
+  thrown in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php on line 135
+[20-Aug-2018 10:57:37 America/New_York] PHP Fatal error:  Uncaught exception 'Intervention\Image\Exception\MissingDependencyException' with message 'PHP Fileinfo extension must be installed/enabled to use Intervention Image.' in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php:135
+Stack trace:
+#0 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php(25): Intervention\Image\ImageManager->checkRequirements()
+#1 /home/elmool/public_html/pic2/index.php(9): Intervention\Image\ImageManager->__construct(Array)
+#2 {main}
+  thrown in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php on line 135
+[20-Aug-2018 10:57:44 America/New_York] PHP Fatal error:  Uncaught exception 'Intervention\Image\Exception\MissingDependencyException' with message 'PHP Fileinfo extension must be installed/enabled to use Intervention Image.' in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php:135
+Stack trace:
+#0 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php(25): Intervention\Image\ImageManager->checkRequirements()
+#1 /home/elmool/public_html/pic2/index.php(9): Intervention\Image\ImageManager->__construct(Array)
+#2 {main}
+  thrown in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php on line 135
+[20-Aug-2018 10:58:13 America/New_York] PHP Fatal error:  Uncaught exception 'Intervention\Image\Exception\MissingDependencyException' with message 'PHP Fileinfo extension must be installed/enabled to use Intervention Image.' in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php:135
+Stack trace:
+#0 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php(25): Intervention\Image\ImageManager->checkRequirements()
+#1 /home/elmool/public_html/pic2/index.php(9): Intervention\Image\ImageManager->__construct(Array)
+#2 {main}
+  thrown in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php on line 135
+[20-Aug-2018 10:59:03 America/New_York] PHP Fatal error:  Uncaught exception 'Intervention\Image\Exception\MissingDependencyException' with message 'PHP Fileinfo extension must be installed/enabled to use Intervention Image.' in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php:135
+Stack trace:
+#0 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php(25): Intervention\Image\ImageManager->checkRequirements()
+#1 /home/elmool/public_html/pic2/index.php(9): Intervention\Image\ImageManager->__construct(Array)
+#2 {main}
+  thrown in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php on line 135
+[20-Aug-2018 11:00:59 America/New_York] PHP Fatal error:  Uncaught exception 'Intervention\Image\Exception\NotReadableException' with message 'Image source not readable' in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/AbstractDecoder.php:345
+Stack trace:
+#0 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/AbstractDriver.php(64): Intervention\Image\AbstractDecoder->init('public/foo.jpg')
+#1 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/ImageManager.php(52): Intervention\Image\AbstractDriver->init('public/foo.jpg')
+#2 /home/elmool/public_html/pic2/index.php(11): Intervention\Image\ImageManager->make('public/foo.jpg')
+#3 {main}
+  thrown in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/AbstractDecoder.php on line 345
+[20-Aug-2018 11:03:31 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/elmool/public_html/pic2/index.php on line 13
+[20-Aug-2018 11:05:23 America/New_York] PHP Fatal error:  Uncaught exception 'Intervention\Image\Exception\RuntimeException' with message 'Font file must be provided to apply text to image.' in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Imagick/Font.php:28
+Stack trace:
+#0 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Commands/TextCommand.php(30): Intervention\Image\Imagick\Font->applyToImage(Object(Intervention\Image\Image), 0, 0)
+#1 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/AbstractDriver.php(92): Intervention\Image\Commands\TextCommand->execute(Object(Intervention\Image\Image))
+#2 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Image.php(106): Intervention\Image\AbstractDriver->executeCommand(Object(Intervention\Image\Image), 'text', Array)
+#3 /home/elmool/public_html/pic2/index.php(14): Intervention\Image\Image->__call('text', Array)
+#4 /home/elmool/public_html/pic2/index.php(14): Intervention\Image\Image->text('The quick brown. in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Imagick/Font.php on line 28
+[20-Aug-2018 11:06:21 America/New_York] PHP Fatal error:  Uncaught exception 'Intervention\Image\Exception\RuntimeException' with message 'Font file must be provided to apply text to image.' in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Imagick/Font.php:28
+Stack trace:
+#0 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Commands/TextCommand.php(30): Intervention\Image\Imagick\Font->applyToImage(Object(Intervention\Image\Image), 0, 0)
+#1 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/AbstractDriver.php(92): Intervention\Image\Commands\TextCommand->execute(Object(Intervention\Image\Image))
+#2 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Image.php(106): Intervention\Image\AbstractDriver->executeCommand(Object(Intervention\Image\Image), 'text', Array)
+#3 /home/elmool/public_html/pic2/index.php(14): Intervention\Image\Image->__call('text', Array)
+#4 /home/elmool/public_html/pic2/index.php(14): Intervention\Image\Image->text('The quick brown. in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Imagick/Font.php on line 28
+[20-Aug-2018 11:06:29 America/New_York] PHP Fatal error:  Uncaught exception 'Intervention\Image\Exception\RuntimeException' with message 'Font file must be provided to apply text to image.' in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Imagick/Font.php:28
+Stack trace:
+#0 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Commands/TextCommand.php(30): Intervention\Image\Imagick\Font->applyToImage(Object(Intervention\Image\Image), 0, 0)
+#1 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/AbstractDriver.php(92): Intervention\Image\Commands\TextCommand->execute(Object(Intervention\Image\Image))
+#2 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Image.php(106): Intervention\Image\AbstractDriver->executeCommand(Object(Intervention\Image\Image), 'text', Array)
+#3 /home/elmool/public_html/pic2/index.php(14): Intervention\Image\Image->__call('text', Array)
+#4 /home/elmool/public_html/pic2/index.php(14): Intervention\Image\Image->text('The quick brown. in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Imagick/Font.php on line 28
+[20-Aug-2018 11:07:19 America/New_York] PHP Fatal error:  Uncaught exception 'Intervention\Image\Exception\RuntimeException' with message 'Font file must be provided to apply text to image.' in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Imagick/Font.php:28
+Stack trace:
+#0 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Commands/TextCommand.php(30): Intervention\Image\Imagick\Font->applyToImage(Object(Intervention\Image\Image), 120, 100)
+#1 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/AbstractDriver.php(92): Intervention\Image\Commands\TextCommand->execute(Object(Intervention\Image\Image))
+#2 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Image.php(106): Intervention\Image\AbstractDriver->executeCommand(Object(Intervention\Image\Image), 'text', Array)
+#3 /home/elmool/public_html/pic2/index.php(14): Intervention\Image\Image->__call('text', Array)
+#4 /home/elmool/public_html/pic2/index.php(14): Intervention\Image\Image->text('The quick br in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Imagick/Font.php on line 28
+[20-Aug-2018 11:09:47 America/New_York] PHP Fatal error:  Call to undefined function base_path() in /home/elmool/public_html/pic2/index.php on line 18
+[20-Aug-2018 11:10:46 America/New_York] PHP Notice:  Array to string conversion in /home/elmool/public_html/pic2/index.php on line 4
+[20-Aug-2018 11:11:21 America/New_York] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/elmool/public_html/pic2/index.php on line 26
+[20-Aug-2018 11:11:56 America/New_York] PHP Fatal error:  Uncaught exception 'Intervention\Image\Exception\RuntimeException' with message 'Font file must be provided to apply text to image.' in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Imagick/Font.php:28
+Stack trace:
+#0 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Commands/TextCommand.php(30): Intervention\Image\Imagick\Font->applyToImage(Object(Intervention\Image\Image), 0, 0)
+#1 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/AbstractDriver.php(92): Intervention\Image\Commands\TextCommand->execute(Object(Intervention\Image\Image))
+#2 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Image.php(106): Intervention\Image\AbstractDriver->executeCommand(Object(Intervention\Image\Image), 'text', Array)
+#3 /home/elmool/public_html/pic2/index.php(24): Intervention\Image\Image->__call('text', Array)
+#4 /home/elmool/public_html/pic2/index.php(24): Intervention\Image\Image->text('foo', 0, 0, Obje in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Imagick/Font.php on line 28
+[20-Aug-2018 11:12:52 America/New_York] PHP Fatal error:  Uncaught exception 'Intervention\Image\Exception\RuntimeException' with message 'Font file must be provided to apply text to image.' in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Imagick/Font.php:28
+Stack trace:
+#0 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Commands/TextCommand.php(30): Intervention\Image\Imagick\Font->applyToImage(Object(Intervention\Image\Image), 0, 0)
+#1 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/AbstractDriver.php(92): Intervention\Image\Commands\TextCommand->execute(Object(Intervention\Image\Image))
+#2 /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Image.php(106): Intervention\Image\AbstractDriver->executeCommand(Object(Intervention\Image\Image), 'text', Array)
+#3 /home/elmool/public_html/pic2/index.php(24): Intervention\Image\Image->__call('text', Array)
+#4 /home/elmool/public_html/pic2/index.php(24): Intervention\Image\Image->text('foo', 0, 0, Obje in /home/elmool/public_html/pic2/vendor/intervention/image/src/Intervention/Image/Imagick/Font.php on line 28
+[20-Aug-2018 12:02:55 America/New_York] PHP Notice:  Undefined offset: -1 in /home/elmool/public_html/pic2/I18N/Arabic/Glyphs.php on line 272
+[20-Aug-2018 12:02:55 America/New_York] PHP Warning:  mb_strpos(): Empty delimiter in /home/elmool/public_html/pic2/I18N/Arabic/Glyphs.php on line 272
+[20-Aug-2018 12:09:06 America/New_York] PHP Notice:  Undefined variable: chars in /home/elmool/public_html/pic2/I18N/Arabic/Glyphs.php on line 208
+[20-Aug-2018 12:12:53 America/New_York] PHP Fatal error:  Call to undefined function response() in /home/elmool/public_html/pic2/image.php on line 34
+[20-Aug-2018 12:15:49 America/New_York] PHP Parse error:  syntax error, unexpected 'png' (T_STRING), expecting ',' or ';' in /home/elmool/public_html/pic2/image.php on line 26
